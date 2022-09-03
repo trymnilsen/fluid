@@ -1,11 +1,11 @@
 name: fluid
 description: Handle dependencies for your widgets and model output of data from them as flows of fluid
-version: 2.0.0
+version: 2.1.3
 homepage: https://github.com/trymnilsen/fluid
 repository: https://github.com/trymnilsen/fluid
 
 environment:
-  sdk: ">=2.16.0 <3.0.0"
+  sdk: ">=2.17.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:

@@ -1,3 +1,19 @@
+## 2.1.3
+
+- Don't dispose fluids without a factory function
+
+## 2.1.2
+
+- Dont make the `fluidFactory` parameter of `FluidBuilder` required
+
+## 2.1.1
+
+- Only add an internal `_FluidWidget` if factory is set
+
+## 2.1.0
+
+- The `fluidFactory` parameter for a `FluidBuilder` can now be set to null. If this parameter is null, the builder will attempt to resolve the fluid based on possible ancestor builders of the same type.
+
 ## 2.0.0
 
 > Note: This release has breaking changes.
